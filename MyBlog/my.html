@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="UTF-8" />
+		<title>My Personal Blog</title>
+		<meta name="keywords" content="personal blog article study" />	
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/imageshow.css" />
+		<link rel="stylesheet" type="text/css" href="css/goast.css" />
+		<style>
+			.codrops-header {
+				margin-top: 30px;
+				font-family: 'Microsoft Yahei'
+			}
+			body { 
+				background:url('image/bg.jpg')no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				background-size: cover;
+				background-position:50% 50%;
+				height:100%;
+			}
+			html{
+				height:100%;
+			}
+			.navbox{float:left;}
+			ul.nav{width:200px;padding:60px 0 60px 0;}
+			ul.nav li{margin:5px 0 0 0;}
+			ul.nav li a{
+				background:#cbcbcb url() no-repeat;color:#174867;padding:7px 15px 7px 15px;width:100px;display:block;text-decoration:none;
+				-webkit-transition:all 0.3s ease-out;
+				-moz-transition:all 0.3s ease-out;
+				-o-transition:all 0.3s ease-out;
+				-webkit-box-shadow:2px 2px 4px #888;
+				-moz-box-shadow:2px 2px 4px #888;
+				-o-box-shadow:2px 2px 4px #888;
+			}
+			ul.nav li a:hover{background:#ebebeb;color:#67a5cd;padding:7px 15px 7px 30px;}
+		</style>
+	</head>
+	<body>
+		<header class="codrops-header">
+			<h1>CassiePython的个人博客</h1>
+			<nav class="codrops-demos">
+				<a href="#">个人介绍</a>
+				<a href="#">我的博文</a>
+				<a href="#">我的项目</a>
+				<a href="#">我的代码库</a>
+				<a href="#">电子书下载</a>
+				<a href="#">视频教程</a>
+			</nav>
+		</header>
+		<article>
+			<ul class="slides">
+				<input type="radio" name="radio-btn" id="img-1" checked />
+				<li class="slide-container">
+					<div class="slide">
+						<img src="image/8346734966_f9cd7d0941_z.jpg" />
+					</div>
+					<div class="nav">
+						<label for="img-6" class="prev">&#x2039;</label>
+						<label for="img-2" class="next">&#x203a;</label>
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-2" />
+				<li class="slide-container">
+					<div class="slide">
+					  <img src="image/8365873811_d32571df3d_z.jpg" />
+					</div>
+					<div class="nav">
+						<label for="img-1" class="prev">&#x2039;</label>
+						<label for="img-3" class="next">&#x203a;</label>
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-3" />
+				<li class="slide-container">
+					<div class="slide">
+					  <img src="image/8250438572_d1a5917072_z.jpg" />
+					</div>
+					<div class="nav">
+						<label for="img-2" class="prev">&#x2039;</label>
+						<label for="img-4" class="next">&#x203a;</label>
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-4" />
+				<li class="slide-container">
+					<div class="slide">
+					  <img src="image/8237246833_54d8fa37f0_z.jpg" />
+					</div>
+					<div class="nav">
+						<label for="img-3" class="prev">&#x2039;</label>
+						<label for="img-5" class="next">&#x203a;</label>
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-5" />
+				<li class="slide-container">
+					<div class="slide">
+					  <img src="image/8098750623_66292a35c0_z.jpg" />
+					</div>
+					<div class="nav">
+						<label for="img-4" class="prev">&#x2039;</label>
+						<label for="img-6" class="next">&#x203a;</label>
+					</div>
+				</li>
+
+				<input type="radio" name="radio-btn" id="img-6" />
+				<li class="slide-container">
+					<div class="slide">
+					  <img src="image/8098750703_797e102da2_z.jpg" />
+					</div>
+					<div class="nav">
+						<label for="img-5" class="prev">&#x2039;</label>
+						<label for="img-1" class="next">&#x203a;</label>
+					</div>
+				</li>
+
+				<li class="nav-dots">
+				  <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+				  <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+				  <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+				  <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+				  <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+				  <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+				</li>
+			</ul>	
+			<div class="ghost">
+				欢迎访问
+				<div class="ghostBody"></div>
+				<div class="ghostEye left"></div>
+				<div class="ghostEye right"></div>
+				<div class="ghostMouth"></div>
+				<div class="ghostWave"></div>
+				<div class="shadow">
+			</div>
+	</div>
+		</article>
+		<aside>
+			<audio controls="controls">
+				<source src="music/wang.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+			</audio>
+			<ul class="nav">
+				<li><a href="#">XHTML</a></li>
+				<li><a href="#">C++</a></li>
+				<li><a href="#">Mootools</a></li>
+				<li><a href="#">HTML5</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">jQuery</a></li>
+				<li><a href="#">Ajax</a></li>
+				<li><a href="#">PHP</a></li>
+				<li><a href="#">Perl</a></li>
+			</ul>
+		</aside>
+		<footer>
+		  <p>Posted by:Wang Can</p>
+		  <p>Contact information: <a href="mailto:someone@example.com">2931592721@qq.com</a>.</p>
+		</footer>
+	</body>
+</html>

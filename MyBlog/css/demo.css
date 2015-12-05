@@ -1,0 +1,49 @@
+#Õ∑≤ø±Í«©
+.codrops-header {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+.codrops-header h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.6em;
+	text-align: center;
+}
+body {
+	background: #3498db;
+	color: #fff;
+	font-size: 100%;
+	line-height: 1.25;
+	font-family: 'Lato', Arial, sans-serif;
+}
+a {
+	color: rgba(0,0,0,0.5);
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #fff;
+}
+article{
+	margin-top: 60px;
+}
+.codrops-demos {
+	margin-top: 30px;
+	text-align: center;
+}
+.codrops-demos a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 30px;
+}
+aside {
+	position: absolute;
+	left: 130px;
+	top: 140px;
+
+}
+footer{
+	margin-top:60px;
+	text-align: center;
+}
